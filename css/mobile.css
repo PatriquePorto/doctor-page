@@ -1,0 +1,1789 @@
+/* 
+ ########Responsive Mobile Area#########
+*/
+
+
+@media (max-width: 992px) {
+
+	          
+
+    /*Inicio Mobile Menu */
+    #menu-mobile {
+       
+       display: flex;
+       align-items: center;
+       justify-content: center;
+   }
+
+    #menu-mobile .nav-menu {
+        display: block; 
+       position: absolute;
+       width: 100%;
+       top: 1px;
+       right: 0px;
+       background: #0D344D;
+       border-top-left-radius: 80px;
+       border-top-right-radius: 80px;
+       border-bottom-left-radius: 80px;
+       border-bottom-right-radius: 80px;
+       height: 0px;
+       transition: .6s;
+       z-index: 1000;
+      visibility: hidden;
+      overflow-y: hidden;
+    }
+
+    #menu-mobile.activemobile .nav-menu {
+       
+       height: calc(100vh - 1px);
+       visibility: visible;
+       overflow-y: auto;
+   }
+
+   .nav-menu .drop-down ul {
+       width: 93%;
+       height: 600px;
+   
+   }
+
+   .nav-menu .drop-down ul li a {
+       font-size: 5rem;
+       text-align: center;
+   }
+
+    .nav-menu ul {
+        position: relative;
+        top: 200px;
+        left: -100px;
+        flex-direction: column;
+        align-items: center;
+       
+    }
+
+    .nav-menu ul a {
+        font-size: 5rem;
+    }
+
+    .nav-menu .consulte a {
+        text-decoration: none !important;
+    }
+
+    .nav-menu .border-mobile a {
+       border: none;
+    }
+
+    #menu-mobile .line-menu-mobile {
+        margin-top: 40px;
+       position: relative;
+       left: 100px;
+       width: 800px;		
+       height: 6px;
+       background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgb(255, 255, 255), rgba(0, 0, 0, 0));
+    }
+
+           
+    .drop-down br {
+        display: block;
+    }
+
+    #menu-mobile ul .text-mobile {
+       position: relative;
+       left: 100px;
+       
+    }
+
+    button:focus {
+       outline: none !important;
+     }		 
+
+      #btn-mobile {
+         position: relative;		
+         left: 440px;
+         top: 65px;
+         color: #FFF;
+         z-index: 1200;
+         display: flex;
+         padding: .5rem 1rem;
+         font-size: 2rem;
+         border: none;
+         background: none;
+         cursor: pointer;
+         gap: .5rem;
+      }
+
+      #hamburger {
+          
+          border-top: 5px solid;
+          width: 80px;
+      }
+
+      #hamburger::after,  #hamburger::before  {
+          content: '';
+          display: block;
+          width: 80px;
+          height: 5px;
+          background: currentColor;
+          margin-top: 20px;
+          transition: .3s;
+          position: relative;
+      }
+
+      #menu-mobile.activemobile #hamburger {
+          border-top-color: transparent ;
+      }
+
+      #menu-mobile.activemobile #hamburger::before {
+           transform: rotate(135deg);
+      }
+
+      #menu-mobile.activemobile #hamburger::after {
+           transform: rotate(-135deg);
+           top: -24px;
+      }
+
+
+    /*Fim Mobile Menu */
+
+    /*Responvie Mobile Sobre o Dr */
+
+    @media (max-width: 993px){
+
+        .banner-sobre-dr {
+            width: 100%;
+            height: 2100px ;
+        
+        }
+
+        .banner-sobre-dr .container-fluid {
+            margin-top: 150px;
+        }
+
+        .banner-sobre-dr .sobredr-content .content-fig {
+            width: 450px;
+            height: 440px;
+            top: 285px;
+            left: -20px;
+        
+            
+        }
+
+        .banner-sobre-dr .container-image  .content-fig2 {
+            width: 500px;
+            height: 500px;
+            
+            
+        }
+
+        .banner-sobre-dr  .container-image {		   		    
+            left: 180px;
+        }
+
+        .banner-sobre-dr  .container-image img {
+            width: 680px;
+            height: 790px;
+        }
+
+        
+
+        .banner-sobre-dr .container-right {
+            left: 150px;
+            top: 500px;
+        
+        }
+
+        .banner-sobre-dr .container-right .name-doctor {
+            left: -20px;
+            font-size: 4.2rem;
+        }
+
+        .banner-sobre-dr .container-right .sobre-dr-text3 {
+            top: 0px;
+        }
+
+        .banner-sobre-dr .container-right .sobre-dr-midia {
+            top: -300px;
+        }
+
+        .banner-sobre-dr  .sobre-dr-midia h6 {
+            position: relative;
+            font-size: 3rem;
+            width: 800px;
+            left: -70px;
+        }
+
+        .banner-sobre-dr  .sobre-dr-midia a {
+            position: relative;
+            padding: 40px;
+            left: -80px;
+            top: 30px;
+        }
+
+        .banner-sobre-dr  .sobre-dr-midia a img {
+            width: 100px;
+            height: 100px;
+            
+        }
+    
+        .cel-container img {
+            width: 100%;
+            height: 100%;
+        }
+    
+ } /*Fim Responsive Mobile Sobre o Dr */
+
+ 	/*Responsive mobile o que é nutrologia  */
+
+     @media (max-width: 993px){
+
+        .banner-nutrology {
+            height: 4350px;
+        }
+
+        
+        .nutrology-content h2 {
+            margin-top: 70px;
+            font-size: 5rem;
+            left: 370px;
+        }
+
+        .nutrology-content .line-nutrology {
+            margin-top: 40px;
+            width: 850px;
+            height: 5px;
+            left: 90px;
+        }
+
+        .banner-nutrology .nutrology-content h1 {
+            
+            left: 220px;
+            margin-top: 20px;
+            font-size: 2.5rem;
+        }
+
+        .banner-nutrology .text-nutrology {
+            width: 850px;
+            line-height: 80px;
+            left: 94px;
+            
+        }
+
+        .banner-nutrology .text-nutrology p {
+            font-size: 2.4rem;
+            text-align: left;
+        }
+
+        .banner-nutrology .estetoscopio-img img {
+            left: 50px;
+            width: 950px;
+            height: 500px;
+        }
+
+        .banner-nutrology .container-text-nutrology h1 {
+            position: relative;
+            left: 210px;
+    }
+} /*Fim Responsive Mobile O que é Nutrologia */
+
+ /*Responsive Mobile Doenças Tratadas */ 
+
+ @media (max-width: 993px){
+			
+    .banner-doencas-tratadas {
+        width: 100%;
+        height: 3800px ;
+    }
+
+    .content-doencas {
+        display: flex;
+        align-items: left;
+        justify-content: left;
+    }
+
+    .banner-doencas-tratadas .content-doencas h2 {
+        width: 850px;
+        top: -400px;
+        left: -15px;
+        font-size: 5.2rem;
+    }
+
+    .banner-doencas-tratadas .content-doencas .line-doencas {
+        left: -50px;
+        top: -320px;
+        width: 900px;
+        height: 5.2px;
+    }
+
+    .banner-doencas-tratadas .content-doencas h1 {
+        width: 450px;
+        left: 180px;
+        top: -250px;
+    }
+
+    .banner-doencas-tratadas .content-doencas .text-nutrology {
+       
+        left: -30px;
+        top: -250px;
+    }
+
+
+    .banner-doencas-tratadas .content-doencas .text-nutrology li {
+        width: 840px;
+        line-height: 80px;
+        font-size: 2.5rem;
+    }
+    
+} /*Fim Responsive Mobile Principais Doenças Tratadas */
+
+  /*Responsive Mobile Como pode ajudar */
+	   
+  @media (max-width: 993px)  {
+        
+    .banner-ajuda {
+        width: 100%;
+        height: 2300px;
+    }
+
+    .banner-ajuda .content-ajuda h2 {
+        left: 10px;
+        top: -320px;
+        width: 800px;
+        font-size: 5rem;
+    }
+
+    .banner-ajuda .content-ajuda .line-ajuda {
+        left: -50px;
+        top: -290px;
+        width: 900px;
+        height: 5px;
+    }
+
+    .banner-ajuda .content-ajuda h1 {
+        left: -10px;
+        top: -220px;
+        font-size: 2.5rem;
+    }
+    
+    .banner-ajuda .content-ajuda .text-ajuda .lista-1 {
+        left: -20px;
+        line-height: 80px;
+        top: -100px;
+    }
+
+    .banner-ajuda .content-ajuda .text-ajuda .lista-2 {
+        top: -110px;
+        left: -20px;
+        width: 880px;
+        
+    }
+ } /*Fim como pode ajudar */
+
+ /*Responsive Mobile Contato */
+  
+ @media (max-width: 993px) {
+ 
+    #contact {
+        width: 100% !important;
+        height: 1500px !important;
+        background: linear-gradient(30deg, rgba(13,52,77,1) 15%, rgba(0,122,122,1) 90%, rgba(76,106,135,1) 60%, rgba(0,122,122,1) 88%);		 
+      
+    }
+
+    #contact #localatendimento {
+       left: 100px;
+        
+    }
+
+    #localatendimento h4 {
+        margin-top: 100px;
+        left: -110px;
+        font-size: 2.6rem;
+        width: 500px;
+    }
+
+    #localatendimento .line-rodape {
+        margin-top: 40px;
+        left: -105px;
+        width: 105px;
+    }
+
+    #localatendimento p {
+        left: -105px;
+        font-size: 2.4rem;
+        width: 800px;
+       font-weight: normal;
+    }
+
+    #localatendimento .how-to-get {
+        top: -40px;
+        left: -102px;
+    }
+
+    #localatendimento .place {
+        margin-top: 40px;
+        left: -100px;
+    }
+
+    #localatendimento .place img {
+        width: 100px;
+        height: 100px;
+    }
+
+    
+
+    #contact #address-contact {
+        width: 100% !important;
+        
+        top: 150px;
+        left: 20px;
+    }
+
+    #address-contact h4 {
+        left: -16px;
+        font-size: 2.6rem;
+    }
+
+    #address-contact .line-rodape {
+        left: -16px;
+        margin-top: 50px;
+        width: 100px;
+    }
+
+    #address-contact .container-phone {
+        width: 450px;
+    }
+
+    #address-contact .container-phone img {
+        width: 20px;
+        height: 25px;
+    }
+
+    #address-contact .container-phone p {
+        top: 6px;
+    }
+
+    #address-contact .container-phone h5 {
+        font-size: 1.6rem;
+    }
+
+    #address-contact .horario  {
+        margin-top: 25px;
+        width: 600px !important;
+        font-size: 1.55rem !important;
+    }
+
+    #address-contact .whatsapp-container {
+      
+       width: 520px;
+       height: 120px;
+        left: -10px;
+    }
+
+    #address-contact .whatsapp-container img {
+        width: 70px;
+        height: 70px;
+    }
+
+    #address-contact .whatsapp-container h5 {
+      position: relative;
+      font-size: 2rem;
+      width: 500px !important;
+      height: 60px;
+      top: -30px;
+      left: 85px;
+      
+    }
+
+    #address-contact .contact-container {
+      width: 520px;
+      height: 120px;
+       left: -10px;
+    }
+
+    #address-contact .contact-container img {
+      width: 70px;
+      height: 70px;
+  }
+
+  #address-contact .contact-container h5 {
+                  
+  
+      position: relative;
+      font-size: 2rem !important;
+      width: 500px !important;
+      height: 60px;
+      top: 35px;
+      left: 15px;
+      
+    }
+
+  
+
+    #contact #doctormedia {
+        display: none;
+        top: 100px;
+        left: 50px;
+    }
+
+    .banner-emagreca {
+        height: 1400px !important;
+    }
+
+    .banner-emagreca #emagreca {
+        top: -30px ;
+    }
+
+    .banner-emagreca .sobre-dr-midia {
+      display: block;
+
+  }
+
+  .banner-emagreca .sobre-dr-midia h6 {
+      position: relative;
+      font-family: 'Montserrat';
+      font-size: 2.6rem;
+      color: #0D344D;
+      font-weight: 700;
+      left: 170px;
+      top: 110px;
+  }
+
+  .banner-emagreca .sobre-dr-midia .midias-icon {
+      width: 100%;
+      padding: 150px;
+  }
+
+  .banner-emagreca .sobre-dr-midia .midias-icon img {
+      width: 160px;
+      height: 160px;
+      padding: 20px;
+  }     
+
+} /*Fim Responsive Mobile Contato Page */
+
+       #topo {
+           height: 240px;
+           align-items: center;
+           justify-content: center;
+
+       }
+
+       #topo .logo-responsive{
+           width: 550px;
+           height: 160px;
+           left: -60px;
+           top: 15px;  
+       }
+
+       .banner-topo{
+           top: 100px;
+           height: 1750px;
+       }  
+
+       .right-container {
+          margin-top: 100px;
+           bottom: 480px;
+           left: 100px;
+       }
+
+      .right-content img {
+          width: 900px !important;
+      }
+
+       
+           
+       .left-content {
+           width: 400px;
+           height: 400px;
+           position: relative;
+           top: 750px;
+           left: -215px;
+       }
+
+       .left-container {
+           width: 100%;
+           top: 400px;
+           position: relative;
+           left: 70px;
+
+       }
+
+
+       .left-container h1 {
+           
+           position: relative;
+       left: 220px;
+           font-size: 35px;
+           letter-spacing:-2px;
+           top: 340px;
+           text-align: center;
+       }
+
+       .left-container .line-divide {
+           width: 270px;
+           position: relative;
+           height: 8px;
+           top: 395px;
+           left: 258px;
+           
+       }
+
+       .left-container h4 {
+           width: 700px;
+           top: 415px;
+           height: 250px;
+       letter-spacing: -2px;
+           position: relative;
+           font-size: 45px;
+           left: 50px;
+           text-align: center;
+       }
+
+       .banner-topo .navigation {
+           display: flex;
+           align-items: center;
+           justify-content: space-between;
+               top: 1530px;
+               width: 300px;
+       }
+
+     .banner-topo	 .btn-slide {
+           position: relative;						
+           width: 40px !important;
+           height: 40px !important;
+           left: -10px;
+       }
+
+    /*Banner Video */
+
+     .banner-video {
+         
+         width: 100%;
+         background-image: none;
+         
+     }
+
+     .back-mobile {
+         width: 100%;
+         height: 1280px;
+         background-image: url(../images/back-mobile.png);
+         background-repeat: no-repeat;
+         background-size: cover; 
+        background-position: center center;
+         
+     }
+
+     .back-mobile .content-video {
+       width: 90%;
+       height: 430px;
+       left: 55px;
+       top: 75px;
+   }
+
+     .back-mobile .content-video-text {
+         left: 150px;
+         top: 320px;
+     }
+
+    
+
+     .back-mobile .videonavigation {
+         display: flex;
+         align-items: center;
+         justify-content: space-between;
+         width: 170px;
+         bottom: -390px;
+         left: 460px;
+     }
+
+     .back-mobile .videonavigation .btn-videoslide {
+         width: 40px;
+         height: 40px;
+     }
+
+     .sobre-doutor {
+         width: 100%;
+         height: 1600px;
+     }
+
+
+       .container-right {
+               
+           
+           left: 200px;
+           top: -300px;
+       }
+
+       .container-right .right-text {
+
+           font-size: 30px;
+           width: 600px;
+       
+           top: -500px;
+       }
+
+       .right-text h2 {
+           position: relative;
+           left: -40px;
+           width: 900px;
+           height: 85px;
+           font-size: 72px;
+           color: #000;
+       }
+
+
+       .right-text h4 {
+           position: relative;
+           left: 190px;
+           font-size: 42px;
+           width: 100%;
+       }
+
+       .right-text .line-text {
+           width: 270px;
+           height: 8px;
+           left: 160px;
+           top: 10px;
+           position: relative;
+           
+       }
+
+       
+       .container-right .right-text2 {
+           position: relative;
+           top: -420px;
+           
+       }
+
+
+       .right-text2 {
+           position: relative;
+           top: 240px;
+           left: -140px;
+           letter-spacing: -1.5px;
+       }
+
+       .right-text2 h5 {
+           width: 850px;
+           font-size: 42px;
+           text-align: center;
+       }
+
+       .right-text2 h4 {
+           position: relative;
+           left: 200px;
+           top: 20px;
+           letter-spacing: -3px;
+           font-size: 42px;
+           color: #000;
+           font-weight: bold;
+       }
+
+       .right-text2 .line-text2 {
+           position: relative;
+           width: 420px;
+           height: 5px;
+           top: 18px;
+           left: 195px;
+
+       }
+
+       .content-fig {
+
+           position: relative;
+           width: 450px;
+           height: 450px;	
+           left: 5px;
+           top: 1100px;
+           border-width: 3.5px;
+           border-radius: 30px;
+           
+           
+       }
+
+       .content-fig2 {
+           position: relative;
+           width: 550px;
+           height: 550px;
+           left: 320px;
+           bottom: -370px;
+           border-radius: 30px;
+
+       }
+
+       .content-fig2 img  {
+           position: relative;
+           width: 750px;
+           height: 750px;
+           top: -190px;
+           left:-130px;
+           
+       }
+
+       /*Section Container Banner */
+
+       .section-container {
+           z-index: 5;
+           display: flex;
+           position: relative;
+           width: 100%;
+           height: 800px !important;
+           
+       }
+                   
+   
+
+       .section-container .section-content {
+           position: relative;
+           display: flex;
+           align-items: center;
+           justify-content: center;
+           left:-160px;
+           top: -100px;
+           width: 500px;			
+           height: 100px;
+           border-width: 2px;
+       }
+
+       .section-container .section-content a {
+                   
+           width: 100%;
+           height: 100%;
+           
+           text-decoration: none;
+           }
+
+
+       .section-container .banner-title h1 {
+           position: relative;
+           top: 18px;
+           left: 15px;
+           font-size: 3.2rem;
+
+           
+       }
+
+       .section-container .section-container-text {
+           width: 400px;
+           height: 400px;
+          left: -40px;
+          top: -80px;
+           
+       }
+
+       .section-container .section-container-text h3 {				
+           font-size: 2.4rem;	
+           line-height: 60px;		
+           text-align: left;
+
+       }
+
+       .section-container .content-right {
+           position: relative;
+           width: 300px;
+           height: 300px;
+           left: 550px;
+           top: 20px;
+
+       }
+
+       .section-container .content-right img {
+           width: 400px;
+           height: 640px;
+       
+       }
+
+       /*Section Container Banner 2 */
+
+   
+
+       .section-container .banner-title2 {
+           display: flex;
+           flex-direction: column;
+           
+           width: 100%;
+       }
+
+
+       .banner-title2 .section-content2 {
+           display: flex;
+           align-items: center;
+           justify-content: center;
+           width: 500px;
+           height: 100px;
+           top: -190px;
+           left: 80px;
+           border: 2px solid;
+           color: #FFF;
+       }
+
+       .banner-title2 .section-content2 h1 {
+           position: relative;
+           left: 140px;
+           font-size: 2.7rem;
+       
+       }
+
+       .section-container  .banner-title2 .online-text {
+           
+           position: absolute;
+           width: 250px;
+           height: 100px;
+           top: 97px;
+           left: 249px;
+       }
+
+       .section-container  .banner-title2 .online-text h2 {
+           font-size: 3.7rem;
+           font-weight: 800;
+       }
+
+       .section-container  .banner-title2 .section-container-text2 {
+           position: relative;
+           width: 470px;
+           height: 450px;
+           top: -80px;
+          left: 80px;
+       
+       }
+
+       .section-container  .banner-title2 .section-container-text2 h3 {
+           font-size: 2.4rem;
+           text-align: left;
+       }
+
+       .section-container .container .medicine-slider .content-right img {
+           
+           top: 50px;
+       }
+
+
+       
+
+
+       /*Service Container */
+
+       .service {
+           display: flex;
+           height: 1700px !important;
+           width: 100%;
+           
+       }
+
+       .service .focus {
+           position: relative;
+           top: -340px;
+           
+       }
+
+       .service .container .focus {
+           position: relative;
+           left: 20px;
+           height: 90px;
+           margin-top: 70px;
+           width: 420px;
+           border-radius: 20px;
+           
+       }
+
+       .focus .h1 {
+           font-size: 62px;
+       }
+
+       .service .container {
+           position: relative;
+           display: flex;
+           flex-direction: row;
+           align-items: center;
+           justify-content: center;
+           top: -200px;
+       }
+
+   
+
+       /*Container Emagrecimento*/
+
+       .service .container-emagrecimento {
+           position: absolute;
+           bottom: 180px;
+           left: -180px;
+           top: -180px;
+           width: 322px;
+           height: 322px;
+           border-radius: 35px;
+           border-width: 4px;
+           
+       }
+
+       .service .container-emagrecimento .emagrecimento-image {
+           width: 305px;
+           height: 305px;
+           border-radius: 35px;
+       }
+
+       .service .container-emagrecimento .emagrecimento-image img {
+           width: 650px;
+           height: 420px;
+       }
+
+       .container-emagrecimento .emagrecimento-text {
+           position: relative;
+           width: 1500px;
+           left: 120px;
+           top: -440px;
+           
+       }
+
+       .container-emagrecimento .emagrecimento-text h3 {
+           position: relative;
+           font-size: 45px;
+       left: 50px;
+       bottom: 60px;
+       
+       }
+
+       .container-emagrecimento .container-line {
+           position: relative;
+           left: -180px;
+           width: 450px;
+           bottom: 260px;
+           
+
+       }
+
+       
+     .service-container .container-emagrecimento .emagrecimento-text h5 {
+       
+           padding: 0;
+           border: 0;
+           outline: 0;
+           top: -180px;
+           line-height: 30px;
+           width: 420px;
+           height: 120px;
+           font-size: 22px;
+           left: -590px;
+           
+           text-align: justify;
+
+       } 
+  
+       /*Container Longevidade */
+
+       .service .container-longevidade {
+           position: absolute;
+           top: 300px;
+           width: 322px;
+           height: 322px;
+           border-radius: 35px;
+           border-width: 4px;
+       }
+
+       .container-longevidade {
+           position: relative;
+           left: 290px;
+       }
+
+       .container-longevidade .longevidade-image {
+           width: 305px;
+           height: 305px;
+           border-radius: 35px;
+       }
+
+       .container-longevidade .longevidade-image img {
+           position: relative;
+           width: 700px;
+           height: 450px;
+           bottom: 50px;
+       }
+
+       .container-longevidade .emagrecimento-text h3 {
+           font-size: 45px;
+           position: relative;
+           top: -65px;
+           padding: -10px;
+           
+
+       }
+
+       .container-longevidade .container-line {
+           position: relative;
+           left: -535px;
+           width: 450px;
+           bottom: 470px;
+       }
+
+       .container-longevidade .emagrecimento-text h5 {
+           margin: 0;
+           padding: 0;
+           border: 0;
+           outline: 0;
+           position: absolute;
+           width: 400px;
+           height: 120px;
+           line-height: 30px;
+           font-size: 22px;
+           left:-390px;
+           top: -320px;
+           text-align: justify;
+       } 
+
+       /*
+
+
+
+       /*Container Acunpuntura*/
+
+       .service .container-acunputura {
+           position: absolute;
+           top: 800px;
+           left: -180px;
+           width: 322px;
+           height: 322px;
+           border-radius: 35px;
+           border-width: 4px;
+       }
+
+       .container-acunputura .acunputura-image {
+           width: 305px;
+           height: 305px;
+           border-radius: 35px;
+       }
+
+       .container-acunputura .acunputura-image img {
+           width: 500px;
+           height: 300px;
+       }
+
+
+
+   
+       .container-acunputura .emagrecimento-text h3 {
+           font-size: 45px;
+           position: relative;
+           top: -60px;
+       }
+
+       .container-acunputura .container-line {
+           width: 450px;
+           top: -500px;
+           left: 395px;
+           
+       }
+
+
+       .container-acunputura .emagrecimento-text h5 {
+           top: -420px;
+           margin: 0;
+           padding: 0;
+           border: 0;
+           outline: 0;
+           position: absolute;
+           text-align: justify;
+           letter-spacing: 0.5px;
+           top: -350px;
+           width: 400px;
+           height: 120px;
+           font-size: 22px;
+           left: 530px;
+       } 
+
+   
+
+       /*Container Áreas de Atuação*/
+
+   
+
+       #tratamentos {
+           display: flex;
+           height: 1050px !important; 
+           width: 100%;
+       }
+
+       #tratamentos .container-cards .carousel .carousel__actions {
+           display: block;
+           position: relative;
+           left: -140px;
+           top: 300px;
+       }
+
+       #tratamentos .container-cards .carousel .carousel__actions .prev-button {
+           position: relative;
+           top: 200px;
+           left: -490px;
+           width: 45px;
+           height: 150px;
+           
+       }
+
+     
+
+       #tratamentos .container-cards .carousel .carousel__actions .next-button {
+           position: relative;
+           top: 60px;
+           left: 380px;
+           width: 45px;
+           height: 150px;
+       }
+
+       #tratamentos  .carousel__item {
+           left: 500px;
+           top: -100px;
+       }
+
+       .text-center .card {
+           width: 350px !important;
+           height: 600px !important;
+           border-radius: 30px !important;
+           
+       }
+
+
+       .tratamentos .tratamentos-title {
+           position: relative;
+           width: 750px;
+           height: 100px;
+           left: 430px;
+           top: -200px;
+           border-width: 2px;
+
+       }
+
+       #tratamentos .container-cards .carousel .disturb {
+           position: relative;
+           left: -580px;
+       }
+
+       #tratamentos .container-cards .carousel .pain {
+           position: relative;
+           left: -190px;
+       }
+
+       #tratamentos .container-cards .carousel .balance {
+           display: none;
+          
+       }
+
+       #tratamentos .container-cards .carousel .modulation {
+           display: none;
+       }
+
+       #tratamentos .container-cards .carousel .exams {
+           display: none;
+       }
+
+
+       #tratamentos .container-cards .carousel .carousel__item2 {
+           left: -120px;
+           transition: 5ms;
+       }
+
+       #tratamentos .container-cards .carousel .balance2 {
+           position: relative;
+           top: 100px;
+           left: 40px;
+       }
+
+       #tratamentos .container-cards .carousel .modulation2 {
+           position: relative;
+          left: 430px;
+          top: -250px;
+       }
+
+       #tratamentos .container-cards .carousel .carousel__item2 .modulation2 img {
+           width: 250px;
+           height: 380px;
+
+       }
+
+       #tratamentos .container-cards .carousel .carousel__item3 {
+           left: 120px;
+           top: 1px;
+       }
+
+       
+
+       #tratamentos .tratamentos-title p {
+           font-size: 40px;
+       }
+
+       #tratamentos .container-cards {
+           
+           top:50px;
+           left: -425px;
+
+       }
+
+       #tratamentos .text-center {
+           display: flex;
+           flex-direction: row;
+           
+       }
+
+   
+       #tratamentos .text-center .card-title {
+           font-size: 40px;
+           width: 250px;
+           font-weight: bold;
+           position: relative;
+           left: 15px;
+           height: 50px;
+       }
+
+       #tratamentos .text-center .card-line {
+           position: relative;
+           width: 200px;
+           height: 3px;
+           left: 50px;
+           top: 45px;
+       }
+
+       #tratamentos .text-center .card-img-top {
+           width: 100%;
+           height: 65%;
+           position: relative;
+           top: 105px;
+       }
+
+   
+
+       #tratamentos .cardslide .pain {
+           position: relative;
+           left:-250px;
+           bottom: 680px;
+       }
+
+       .text-center .cardslide .disturb {
+           position: relative;
+         right: -100px;
+       bottom: 680px;
+       }
+
+       .text-center .cardslide .balance {
+           
+           position: relative;
+           bottom: 680px;
+           left: -530px;
+       }
+
+       .text-center .cardslide .modulation {
+       
+           position: relative;
+           bottom: 680px;
+           left: -250px;
+       }
+
+       #tratamentos .text-center .cardslide .modulation .card .card-body img {
+           width: 240px;
+           height: 400px;
+           top: 80px;
+       }
+
+       .text-center .exams {
+           position: relative;
+       }
+
+       #tratamentos .text-center .exame-img {
+           position: relative;
+           top: 85px;
+           width: 280px;
+           height: 300px;
+       }
+
+
+       /*Coments Section */
+
+       .coments {
+           width: 100%;
+           height: 1400px !important;
+           
+       }
+
+       .coments .container {
+           width: 100%;
+           height: 800px;
+           position: relative;
+           left: -30px;
+       }
+
+       .coments .left-card {
+           position: absolute;
+           width: 350px;
+           height: 350px;
+           left: -290px;
+           top: 300px;
+           border-radius: 40px;
+       
+       }	
+
+       .coments .right-card {
+           position: absolute;
+           width: 350px;
+           height: 350px;
+           left: 715px;
+           top: 300px;
+           border-radius: 40px;
+       
+       }	
+        
+
+       .coments .coments-title {
+           position: relative;
+           left: 35px;
+           top: -320px;
+       }
+
+       .coments-title .h3 {
+           font-size: 90px;
+       }
+       
+
+       .coments .container-testimonials .container-coments {
+           position: relative;
+           display: flex;
+           flex-direction: column;
+           height: 1850px;
+           width: 500px;
+           top: -200px;
+           align-items: center;
+           justify-content: center;
+           
+       }
+
+       .coments .card-comment-1 {
+           position: relative;
+           top: -500px;
+           left: -80px;
+       }
+
+       .coments .card-comment-2 {
+           position: relative;
+           top: -450px;
+           left: -70px;
+       }
+
+
+       .coments .card-text {
+           height: 500px !important;
+           width: 600px !important;
+           left: 100px;
+       }
+
+       .coments .mobile-container-1 {
+           position: relative;
+           left: 150px;
+       }
+
+       .coments .mobile-container-2 {
+           position: relative;
+           left: 40px;
+       }
+
+       .coments .container .text-center .mobile-star-2 {
+           position: relative;
+           left: -55px;
+
+       }
+
+       
+       .coments .card-text img {
+           position: relative;
+           width: 55px;
+           height: 55px;
+           bottom: 35px;
+           left: -268px;
+           }
+
+           .coments .card-title {
+               position: relative;
+               font-size: 40px;
+               left: 10px;
+               width: 600px;
+               bottom: 80px;
+           }
+
+       .coments .card-text .name-1 {
+               position: relative;
+               top: -70px;
+               left: -165px;
+           }
+
+           .coments .card-text .star-testimonial {
+               position: relative;
+               font-size: 35px;
+               left: -160px;
+               bottom: 30px;
+           }
+
+           .coments .container-testimonials .text-1 {
+               position: absolute;
+               top: 145px;
+               font-size: 44px;
+               left: -250px;
+               line-height: 58px;
+               width: 800px;
+               text-align: center;
+               
+           }
+
+   
+           .coments .container-testimonials .text-2 {
+               position: absolute;
+               top: 165px;
+               font-size: 44px;
+               left: -90px;
+               line-height: 58px;
+               width: 700px;
+               text-align: center;
+               
+           }
+
+
+           .coments .card-text .name-2 {
+               position: relative;
+               left: -55px;
+               top: -70px;
+           }
+
+           .coments .mobile-hidden {
+               display: none;
+           }
+
+          
+          /*Container Rodape */
+           .rodape {
+               height: 1200px !important;
+               width: 100% !important;
+               overflow: hidden;
+
+           }
+
+           .rodape .container .row {
+               position: relative;
+               display: flex;
+               flex-direction: column;
+               top:5px;
+           }
+
+           .rodape .container .local {
+               left: -90px;
+               top: 150px;
+           }
+
+           .rodape .container .local h4 {
+               position: relative;
+               font-size: 30px;
+               bottom: 40px;
+               width: 350px;
+               left: 45px;
+               
+           }
+
+           .rodape .container .line-rodape {
+               position: relative;
+               width: 70px;
+               height: 10px;
+               left: 160px;
+               bottom: 35px;
+
+           }
+
+           .rodape .container .endereco {
+               position: relative;			     
+               left: -20px;
+               bottom: 15px;
+               transform: scaleY(1.3);
+               font-size: 1.42em;
+               width: 500px;
+           }
+           .rodape .container .local .how-to-get {
+               position: relative;
+               top: 35px;
+               left: 40px;
+               font-size: 1.7em;
+           }
+
+           .rodape .container .local .place {
+               position: relative;
+              left: 240px;
+              bottom: 45px;
+           }
+
+           .rodape .container .local .place img {
+               width: 35%;
+               height: 35%;
+           }
+
+           .rodape .container .row .contact-address {
+               left: 400px;
+               top: -280px;
+           }
+
+
+           .rodape .container .row .contact-address h4 {
+               position: relative;
+               bottom: 10px;
+               font-size: 30px;
+               left: 130px;
+           }
+
+           .rodape .container .row .contact-address .line-rodape {
+               top: -15px;
+           }
+
+           .rodape .container .row .contact-address h5 {
+               font-size: 20px;
+           }
+
+           .rodape .container-phone {
+               width: 450px;
+               left: -10px;
+           }
+
+           .rodape .container-phone img {
+               position: relative;
+               width: 28px;
+               height: 30px;
+           
+           }
+
+           .rodape .contact-address .container-phone .cell-phone {
+               position: relative;
+               left: -25px;
+           
+           }
+
+
+           .rodape .container .row .container-phone p {
+               top: 11px;
+               font-size: 18px;
+           }
+  
+           .rodape .container-phone h5 {
+               position: relative;
+               top: -5px;
+           }
+
+           .rodape .container .row .container-phone h5 {
+               top: 8px;
+               font-size: 24px;
+               width: 300px;	
+
+           }
+
+           .rodape .container .cell-phone {
+               position: relative;
+               left: -20px;
+           }
+
+           .rodape .container .cell-number {
+               position: relative;
+               left: -20px;
+           }
+
+           .rodape .contact-address .horario {
+               position: relative;
+               top: 20px;
+               left: -10px;
+               width: 450px !important;
+               height: 50px;
+               transform: scaleY(1.2);
+               font-size: 20px !important;				
+           
+           
+           }
+
+           .rodape .whatsapp-container {
+               position: relative;
+               width: 320px;
+               left: 28px;
+               
+           }
+
+           .rodape .whatsapp-container img {
+               width: 50px;
+               height:50px;
+           }
+
+           .rodape .contact-container img {
+               width: 50px;
+               height:50px;
+           }
+            
+           .rodape .container .contact-address .whatsapp-container h5 {
+               width: 250px;
+               font-size: 20px;
+               left: 60px;
+               transform: scaleY(1.3);
+           }
+
+           .rodape .contact-container {
+               position: relative;
+               width: 520px;
+               height: 80px;
+           }
+
+           .rodape .contact-address  .contact-container h5 {
+               position: relative;
+               font-weight: 100;
+               font-size: 22px !important;
+               transform: scaleY(1.4);
+           }
+
+           .rodape .social-doctor {
+               top: -200px;
+           }
+
+           .rodape .social-doctor h4 {
+               position: relative;
+               font-size: 40px;
+               width: 300px;
+               left: -180px;
+           }
+           
+           .rodape .social-doctor .line-rodape {
+               
+               transform: rotate(90deg);
+               bottom: 70px;
+               width: 110px;
+               height: 12px;
+               left: 100px;
+           }
+
+           .rodape .social-doctor .social-media {
+               left: 200px;
+               width: 500px;
+               height: 200px;
+               bottom: 165px;
+               display: flex;
+               justify-content: space-between;
+           }
+
+           .rodape .social-doctor .social-media img {
+           
+               width: 120px;
+               height: 120px
+   
+           }
+
+
+
+           .rodape .footer-line-mobile {
+               top: -980px;
+               width: 450px;
+               left: 260px;
+               height: 5px;
+               transform: rotate(90deg);
+
+           }
+
+}
+
+
+@media(max-width:767px) {
+    .card {
+        margin: 1rem 0.7rem 1rem;
+        max-width: 80vw
+    }
+}
+
+/*Fim Mobile Area */

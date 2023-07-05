@@ -1,0 +1,784 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+					<title>Dr. Fulano | Nutrologo</title>
+
+					<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+
+					<!--CSS For Desktop-->
+					<link rel="stylesheet" type="text/css" href="css/desktop.css">
+						<!--CSS for Mobile-->
+					<link rel="stylesheet" href="css/mobile.css">
+
+					<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+
+					<link href="assets/icofont/icofont.min.css" rel="stylesheet">
+
+					<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+					<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+					<link rel="preconnect" href="https://fonts.googleapis.com">
+				<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+				<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+
+				<!--Scrips -->
+				<script type="text/javascript" src="js/jquery-1.12.4.min.js" defer></script>
+				<script type="text/javascript" src="js/bootstrap.min.js" defer></script>
+				<script type="text/javascript" src="js/popper.min.js" defer></script>
+				<script type="text/javascript" src="js/script.js" defer></script>
+
+</head>
+
+<body>
+
+<header class="topo shadow-sm sticky-top" id="topo">
+	<div class="container">
+		<div class="row">
+			<div class="col-4">
+				<a href="index.html">
+				     <img class="logo-responsive" src="assets/images/logo-doc.png" alt="Logotipo">
+			  </a>
+			</div>
+			<div class="col-8 ">
+
+				<div class="d-none d-sm-block" id="menu-mobile">
+					<button id="btn-mobile" aria-expanded="false">
+						<span id="hamburger"></span>
+					</button>
+					<nav class="nav-menu d-lg-block">
+
+						<ul>
+							<li ><a href="sobredr.html">Sobre o Dr.</a>
+
+							  </li>
+
+							   <span class="line-menu-mobile"></span>
+
+						  <li class="drop-down"><a href="#"><span class="text-mobile">Nutrologia &</span> <br> Medicina  Integrativa</a>
+							<ul>
+								<li><a href="oqueenutrologia.html">O que é?</a></li>
+								<li><a href="doencastratadas.html">Doenças tratadas</a></li>
+								<li><a href="comopodeajudar.html">Como pode ajudar?</a></li>
+
+							  </ul>
+						  </li>
+
+						  <span class="line-menu-mobile"></span>
+
+						  <li class="consulte"><a href="#" target="_blank">Consulta Online</a></li>
+
+						  <span class="line-menu-mobile"></span>
+
+						  <li class="border-mobile"><a href="contato.html">Contato</a></li>
+
+						</ul>
+
+					  </nav><!-- .nav-menu -->
+				</div>
+
+			</div>
+
+		</div>
+	</div>
+</header>
+
+	 <!-- Newsletter Popup Start -->
+	 <div class="popup_wrapper">
+		<div class="test">
+			<span class="popup_off">Fechar</span>
+			<div class="subscribe_area text-center mt-60">
+				<h2>Se inscreva para receber notícias</h2>
+				<p>Inscreva-se na lista de discussão do Dr. para receber atualizações sobre novidades, ofertas especiais e outras informações sobre descontos.</p>
+				<div class="subscribe-form-group">
+					<form action="#">
+						<input autocomplete="off" type="text" name="message" id="message" placeholder="Digite Seu E-mail">
+						<button type="submit">Se Inscreva!</button>
+					</form>
+				</div>
+				<div class="subscribe-bottom mt-15">
+					<input type="checkbox" id="newsletter-permission">
+					<label for="newsletter-permission">Não Mostrar Novamente</label>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Newsletter Popup End -->
+
+<main class="banner-topo">
+
+		 <div  class="container-fluid">
+					<div class="row banner-content"  >
+
+						<div class="img-slider">
+
+							<div class="left-content" >
+
+							</div>
+							<div class="slide active  ">
+										<div class="left-container col-6 col-sm-6 order-2 order-sm-1 animate__animated animate__backInLeft">
+
+											<div class="text-content">
+
+												<h1>Medicina integrativa</h1>
+
+												<div class="line-divide"></div>
+
+												<h4>Por que você é um todo e não pedaços.
+													Um único ser, uma orquesta divina e indivisível.
+												</h4>
+
+											</div>
+									</div>
+
+									<div class="right-container col-3 col-sm-5 order-2 order-sm-1 animate__animated animate__backInRight">
+												<div class="right-content" >
+													<img src="assets/images/m-integrativa.png" alt="">
+												</div>
+
+												<div class="right-content2" >
+													<img src="assets/images/m-integrativa2.png" alt="">
+											    </div>
+
+			            </div>
+
+							</div>
+							<div class="slide slide2">
+								 <div class="left-container col-6 col-sm-6 order-2 order-sm-1 animate__animated animate__backInLeft">
+
+
+										<div class="text-content text-content2">
+
+											<h1>Nutrologia</h1>
+
+											<div class="line-divide"></div>
+
+											<h4>O alimento é a fonte primordial da
+												saúde, desde que usado com sabedoria.
+											</h4>
+
+										</div>
+
+								 </div>
+
+									<div class="right-container col-3 col-sm-5 order-2 order-sm-1 animate__animated animate__backInRight">
+												<div class="right-content" >
+													<img src="assets/images/nutrologia.png" alt="">
+
+												</div>
+
+												<div class="right-content2" >
+													<img class="banner-img" src="assets/images/nutrologia-1.png" alt="">
+
+											</div>
+
+									</div>
+
+							</div>
+					          <div class="slide slide3">
+									<div class="left-container col-6 col-sm-6 order-2 order-sm-1 animate__animated animate__backInLeft">
+
+
+											<div class="text-content text-content3">
+
+												<h1>Acupuntura</h1>
+
+												<div class="line-divide"></div>
+
+												<h4>“<b>Remédio</b>” sem efeito colateral. Trata
+													dor, asiedade, alergia e muito mais...
+												</h4>
+
+											</div>
+
+								    </div>
+
+									<div class="right-container col-3 col-sm-5 order-2 order-sm-1 animate__animated animate__backInRight">
+												<div class="right-content right-content-banner3" >
+													<img src="assets/images/acupuntura-banner.png" alt="">
+
+												</div>
+
+											<div class="right-content2 right-content3" >
+													<img class="banner-img-2" src="assets/images/acupuntura-1.png" alt="">
+
+											</div>
+
+									</div>
+
+					        </div>
+
+							<div class="navigation">
+							  <div class="btn-slide active"></div>
+							  <div class="btn-slide"></div>
+							  <div class="btn-slide"></div>
+						</div>
+				</div>
+			</div>
+		</div>
+</main>
+
+<!--Section videos -->
+   <section class="banner-video back-mobile animate__animated animate__backInRight ">
+        <div class="container-fluid animate__animated animate__backInLeft">
+			   <div class="video-slider">
+                   <div class="videoslide videoactive">
+
+								<div class="banner-video-2 slide-video">
+
+											<div class="row content-video">
+												<iframe src="https://www.youtube.com/embed/5SHOLNfh49g"></iframe>
+
+											</div>
+								</div>
+
+								<div class="content-video-text slide-video active-video">
+											<div class="video-title">
+												<h1>Você já se perguntou?</h1>
+											</div>
+
+											<div class="content-video-line">
+
+											</div>
+
+											<div class="video-content-text">
+												<p>por que as plantas são usadas como remédios a milênios?</p>
+											</div>
+
+											<div class="video-link" type="button">
+												<a href="https://www.youtube.com/watch?v=5SHOLNfh49g"><h3>Descubra nesse vídeo</h3></a>
+											</div>
+								</div>
+
+				   </div>
+
+				   <div class="videoslide">
+
+					<div class="banner-video-2 slide-video">
+
+								<div class="row content-video">
+									<iframe width="560" height="315" src="https://www.youtube.com/embed/8flte4qk_eo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+								</div>
+					</div>
+
+					<div class="content-video-text slide-video active-video">
+								<div class="video-title">
+									<h1 class="video-title2">Já se frustrou por ir a uma consulta
+										e não conseguiu falar tudo o que sentia?
+									</h1>
+								</div>
+
+								<div class="video-line2">
+
+								</div>
+
+								<div class="video-content-text">
+									<p class="video-text2">Saiba que existe um especialista que foca em você como um todo.</p>
+								</div>
+
+								<div class="video-link video-link2" type="button">
+									<a href="https://www.youtube.com/watch?v=8flte4qk_eo"><h3>Descubra nesse vídeo</h3></a>
+								</div>
+					</div>
+
+	    </div>
+
+				  <div class="videonavigation">
+					<div class="btn-videoslide videoactive"></div>
+					<div class="btn-videoslide"></div>
+
+				 </div>
+
+			</div>
+
+		</div>
+
+   </section>
+
+    <section class="sobre-doutor">
+       <div class="sobre-doutor-content">
+				<div class="col-12 col-sm-6 order-1 order-sm-1 animate__animated animate__backInUp">
+					<div class="content-fig">
+
+					</div>
+				</div>
+
+				<div class="container-image col-6 col-sm-4 order-2 order-sm-1 animate__animated animate__backInUp">
+					<div class="content-fig2">
+						<img src="assets/images/dr-fulano.png" alt="Dr. Fulano">
+
+					</div>
+
+
+		        </div>
+
+					<div class="container-right col-sm-6 order-sm-3 animate__animated animate__backInRight">
+						<div class="right-text col-6 col-sm-6 " >
+							<h2>Dr. Fulano Silva</h2>
+							<h4>Nutrologo</h4>
+							<div class="line-text"></div>
+						</div>
+
+						<div class="right-text2">
+							<h5>Como missão escolhi promover “Saúde, Beleza e Felicidade” às pessoas que me procuram profissionalmente.
+								Assim, hoje dedico o meu trabalho e estudo ao aprendizado constante e ao aperfeiçoamento da medicina.
+							</h5>
+							  <a href="#">	<h4>Veja o currículo do Dr.</h4>
+								<div class="line-text2"></div></a>
+							</div>
+						</div>
+			</div>
+	</div>
+</section>
+
+<section class="section-container animate__animated animate__backInUp">
+	<div class="container mt-5 mb-5">
+		<div class="row medicine-slider ">
+			<div class="col-9 col-sm-6 banner-title medicineslide  ">
+				<div class="section-content slide-medicine">
+						<a href="#" target="_blank"><h1>Emagreça Online</h1> </a>
+
+				</div>
+
+				<div class="section-container-text">
+					<h3>Tenha a experiência de ir a uma consulta com
+
+						o Dr. Fulano sem precisar sair
+						da sua casa.</h3>
+				</div>
+
+			</div>
+
+			<div class="content-right">
+
+				<img src="assets/images/Celular.png" alt="">
+
+			</div>
+
+					<div class="col-9 col-sm-6 banner-title2 medicineslide medicineactive ">
+						<div class="section-content2 slide-medicine">
+							<a href="#" target="_blank">
+								<h1>Medicina Integrativa </h1>
+
+							</a>
+
+							<div class="online-text">
+								<a href="#" target="_blank">
+								   <h2>online</h2>
+							    </a>
+							</div>
+
+						</div>
+
+						<div class="section-container-text2">
+							<h3>Está procurando um profissional muito bem capacitado que possa
+								te ajudar a resolver seu problema? Consulte com o Dr. Fulano.</h3>
+						</div>
+				   </div>
+		   </div>
+	  </div>
+</section>
+
+	<!--Fim Section Banner-->
+
+<section class="service" id="">
+	<div class="container">
+		<div class="row">
+			<div class="focus">
+				<p class="h1">Nosso Foco:</p>
+
+			</div>
+
+			<div class="service-container mt-5 mb-5">
+
+				  <div class="container-emagrecimento">
+                       <div class="emagrecimento-image">
+							<img src="assets/images/emagrecimento2.png" alt="">
+					   </div>
+
+					   <div class="emagrecimento-text">
+							<span class="container-line">
+								<h3>Emagrecimento
+
+								</h3>
+							</span>
+
+							<h5>Para recuperar a forma física e a
+							saúde é fundamental que ocorram
+							mudanças de hábitos de forma permanente.
+							O caminho é árduo, e por
+							isso uma equipe multidisciplinar é
+							fundamental para te auxiliar.
+							</h5>
+
+					  </div>
+
+				  </div>
+
+				  <div class="container-longevidade">
+					<div class="longevidade-image">
+						<img src="assets/images/longevidade2.png" alt="">
+					</div>
+
+					<div class="emagrecimento-text">
+						<span class="container-line">
+							<h3 class="longevidade-title">Longevidade
+
+							</h3>
+						</span>
+
+
+						<h5 class="longevidade-text">Alcance a longevidade de forma
+						  saudável, envelheça com saúde e
+						  aproveite tudo o que a vida tem de
+						 melhor para nos oferecer.
+
+						</h5>
+
+					  </div>
+				</div>
+
+				<div class="container-acunputura">
+					<div class="acunputura-image">
+						<img src="assets/images/Acupuntura.png" alt="Acupuntura">
+					</div>
+
+					<div class="emagrecimento-text">
+						<span class="container-line">
+							<h3 class="acupuntura-title" style="position: relative; left: 80px;" >Acupuntura
+
+							</h3>
+						</span>
+
+							<h5 class="acupuntura-text">
+							A acupuntura é uma técnica que vai
+								te ajudar a reforçar o sistema
+								imunológico e ser uma forma de tratamento
+								de problemas e doenças.
+
+							</h5>
+					  </div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section id="tratamentos" class="tratamentos">
+
+	<div class=" container-cards">
+
+		<div class="tratamentos-title">
+			<p class="h3">Principais áreas de atuação</p>
+		</div>
+
+		<div class=" row text-center">
+
+
+			<div class="carousel">
+
+				<div data-js="carousel__item" class="carousel__item carousel__item--visible">
+
+					<div class="col-12  col-sm-2 clikable bt-effect bt-transition disturb">
+
+						<div class="card" >
+
+						<div class="card-body">
+							<h5 class="card-title peso"><span> Distúrbio do peso</span></h5>
+								<div class="card-line">
+								</div>
+							<img src="assets/images/peso-icon.png" class="card-img-top" alt="Peso">
+						</div>
+						</div>
+					</div>
+
+					<div class="col-6 col-sm-2 clikable pain">
+						<div class="card" >
+
+						<div class="card-body">
+							<h5 class="card-title">Tratamento da dor</h5>
+							<div class="card-line">
+							</div>
+							<img src="assets/images/dor-icon.png" class="card-img-top" alt="Dor">
+						</div>
+						</div>
+					</div>
+
+					<div class="col-6 col-sm-2 clikable balance">
+						<div class="card" >
+
+							<div class="card-body">
+								<h5 class="card-title">Equilibrio Nutrológico</h5>
+								<div class="card-line">
+								</div>
+								<img src="assets/images/equi-icon.png" class="card-img-top" alt="Equilibrio">
+							</div>
+						</div>
+					</div>
+
+					<div class="col-6 col-sm-2 clikable modulation">
+						<div class="card" >
+
+							<div class="card-body">
+								<h5 class="card-title text-mobile-modulation">Modulação Hormonal</h5>
+								<div class="card-line">
+								</div>
+								<img src="assets/images/modulacao-icon.png" class="card-img-top modulacao-img" alt="Modulação">
+							</div>
+						</div>
+					</div>
+
+					<div class="col-6 col-sm-2 clikable exams">
+						<div class="card" >
+
+							<div class="card-body">
+								<h5 class="card-title">Exames <br> <br></h5>
+								<div class="card-line">
+								</div>
+								<img class="exame-img" src="assets/images/exames-icon.png" alt="Exames">
+							</div>
+						</div>
+					</div>
+
+				</div>
+
+				<div data-js="carousel__item" class="carousel__item carousel__item2">
+					<div class="col-6 col-sm-2 clikable balance2">
+						<div class="card" >
+
+						<div class="card-body">
+							<h5 class="card-title">Equilibrio Nutrológico</h5>
+							<div class="card-line">
+							</div>
+							<img src="assets/images/equi-icon.png" class="card-img-top" alt="Equilibrio">
+						</div>
+						</div>
+					</div>
+
+					<div class="col-6 col-sm-2 clikable modulation2">
+						<div class="card" >
+
+							<div class="card-body">
+								<h5 class="card-title text-mobile-modulation">Modulação Hormonal</h5>
+								<div class="card-line">
+								</div>
+								<img src="assets/images/modulacao-icon.png" class="card-img-top modulacao-img" alt="Modulação">
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div data-js="carousel__item" class="carousel__item carousel__item3">
+					<div class="col-6 col-sm-2 clikable exams2">
+						<div class="card" >
+
+							<div class="card-body">
+								<h5 class="card-title">Exames <br> <br></h5>
+								<div class="card-line">
+								</div>
+								<img class="exame-img" src="assets/images/exames-icon.png" alt="Exames">
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="carousel__actions">
+
+					<div data-js="carousel__button--prev" class="prev-button"  aria-label="Slide anterior">
+							<img src="assets/images/left-arrow.png" alt="">
+						</div>
+
+						<div data-js="carousel__button--next" class="next-button" aria-label="Próximo slide">
+							<img src="assets/images/right-arrow.png" alt="">
+						</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!--Fim Section Tratamentos-->
+
+<section class="coments" id="coments">
+	<div class="container mt-5 mb-5">
+		<div class="row text-center">
+
+		<div class="col-12 coments-title">
+			<p class="h3">Comentários</p>
+
+		</div>
+
+			<div class="col-6 col-sm-3 order-1 order-sm-1 card-coments">
+				<div class="left-card">
+
+				</div>
+
+				<div class="right-card">
+
+				</div>
+	       </div>
+
+				<div class="container-testimonials">
+					<div class="row container-coments">
+						<div class="col-md-4 ">
+							<div class="card-comment-1">
+
+								<div class="card-text mobile-container-1">
+									<img src="assets/images/person-icon.png" alt="">
+									<div class="card-title name-1">
+
+									Ivani Ivani	</div>
+
+									<div class="star-testimonial">
+										<i class="fas fa-star"> </i>
+										<i class="fas fa-star"> </i>
+										<i class="fas fa-star"> </i>
+										<i class="fas fa-star"> </i>
+										<i class="fas fa-star"> </i>
+									</div>
+									<h4 class="text-1">Profissional excelente! Sou paciente tanto da parte ortopédica quanto
+										da nutrologia e super indico esse profissional exemplar!
+									</h4>
+								</div>
+
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="card-comment-2">
+
+								<div class="card-text mobile-container-2">
+									<img src="assets/images/person-icon.png" alt="">
+									<div class="card-title name-2">Eladio Diz Fernandez</div>
+
+									<div class="star-testimonial mobile-star-2">
+										<i class="fas fa-star"> </i>
+										<i class="fas fa-star"> </i>
+										<i class="fas fa-star"> </i>
+										<i class="fas fa-star"> </i>
+										<i class="fas fa-star"> </i>
+									</div>
+									<h4 class="text-2">Excelente profissional, muito humano e simpático. Além de altamente competente!!!
+									</h4>
+								</div>
+
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="card-comment-3">
+
+								<div class="card-text mobile-hidden">
+									<img class="comment-3" src="assets/images/person-icon.png" alt="">
+									<div class="card-title name-3 comment-3">Álan Lopes</div>
+
+									<div class="star-testimonial  comment-3">
+										<i class="fas fa-star"> </i>
+										<i class="fas fa-star"> </i>
+										<i class="fas fa-star"> </i>
+										<i class="fas fa-star"> </i>
+										<i class="fas fa-star"> </i>
+									</div>
+									<h4>Atencioso, procura entender seu problema!
+										Ótimo médico.
+									</h4>
+								</div>
+
+								<i class="fa-solid fa-location-dot"></i>
+
+							</div>
+						</div>
+					</div>
+				</div>
+      </div>
+		</div>
+	</div>
+</section>
+
+<footer class="rodape">
+	<div class="container">
+
+		<div class="row">
+
+			<div class="col-12 col-sm-4 mt-5 mb-5 local">
+				<h4>Local de atendimento</h4>
+
+				<div class="line-rodape">
+
+				</div>
+
+				<p class="endereco">R. Amor Lindo, 999 - Alta Vista, <br>
+					Teixeira de Freitas/BA, CEP-99999-999</p>
+
+					<h4 class="how-to-get">Como chegar?</h4>
+					<div class="place">
+
+						<a href="https://www.google.com/maps/place/"  target="_blank">
+							<img src="assets/images/place.png" alt="">
+						</a>
+
+					</div>
+
+			</div>
+
+			<div class="col-12 col-sm-4 mt-5 mb-5 contact-address">
+						<h4>Contato</h4>
+
+						<div class="line-rodape">
+
+						</div>
+
+						<div class="container-phone">
+							<img src="assets/images/phone-icon.png" alt="Telefone">
+							<p class="phone-number">(73)</p><h5>9999-9999 | </h5>
+							<img class="cell-phone" src="assets/images/cell-icon.png" alt="Celular">
+							<p class="cell-number">(73)</p><h5 class="cell-number">9999-9999 </h5>
+
+						</div>
+
+						<h5 class="horario">Horário de atendimento: Manhã e Tarde.</h5>
+
+					<div class="whatsapp-container">
+
+						<a  href="https://api.whatsapp.com/send?phone=5573998725505&amp;text=Ol%C3%A1%2C%20em%20breve%20responderei%20sua%20mensagem!" target="_blank">
+							<img class="whatsapp-img"  src="assets/images/whatsapp-icon.png" alt="Whatsapp">	<h5>ENVIE UMA MENSAGEM</h5></a>
+
+					</div>
+
+					<div class="contact-container">
+
+						<img class="whatsapp-img"  src="assets/images/contact-icon.png" alt="Contato">
+						<h5 >contato@drfulanosilva.com</h5>
+					</div>
+
+			</div>
+			<div class="social-doctor col-12 col-sm-4 mt-5 mb-5">
+				<h4>Acompanhe o Dr. Fulano</h4>
+				<div class="line-rodape">
+
+				</div>
+
+			   <div class="social-media">
+
+						<a  href="#"  target="_blank">
+							<img src="assets/images/facebook-icon.png" alt="Facebook">
+						</a>
+
+						<a  href="#"  target="_blank">
+							<img src="assets/images/instagram-icon.png" alt="Instagram">
+						</a>
+
+						<a  href="#"  target="_blank">
+							<img src="assets/images/youtube-icon.png" alt="Youtube">
+						</a>
+
+						<a  href="#"  target="_blank">
+							<img src="assets/images/linkedin-icon.png" alt="Linkedin">
+						</a>
+					</div>
+				</div>
+			</div>
+		 </div>
+		<div class="footer-line footer-line-mobile">
+	</div>
+</footer>
+
+</body>
+</html>
