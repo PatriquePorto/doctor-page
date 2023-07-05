@@ -2,7 +2,7 @@
 Personal doctor web site
 
 <p align="left">
-  <img alt="App" src="./assets/images/full-page.jpeg" width="50%" height="30%">
+  <img alt="App" src="./assets/images/doctor-page.png" width="50%" height="30%">
 </p>
 
 
