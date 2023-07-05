@@ -1,8 +1,7 @@
 # Responsive Doctor-Page
 Personal doctor web site
 
-[Untitled  Jul 5, 2023 11 03 AM.webm](https://github.com/PatriquePorto/doctor-page/assets/16324526/ac6b75e8-6752-44b7-80da-f0c9b5c3ad3d)
-
+[Untitled  Jul 5, 2023 11 21 AM.webm](https://github.com/PatriquePorto/doctor-page/assets/16324526/80a68d59-dd2c-4106-8cb8-70f382e20c70)
 
 <p align="left">
   <img alt="App" src="./assets/images/doctor-page.png" width="50%" height="30%">
