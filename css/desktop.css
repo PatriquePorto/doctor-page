@@ -1176,7 +1176,7 @@ input#newsletter-permission {
   @media (max-width: 420px){
 	.img-slider{
 	  width: 320px;
-	  height: 200px;
+	  height: 24400px;
 	}
 
 	.img-slider .navigation{
@@ -1420,16 +1420,7 @@ input#newsletter-permission {
 	}
   }
 
-  @media (max-width: 420px){
-	.video-slider{
-	  width: 320px;
-	  height: 200px;
-	}
 
-	.video-slider .videonavigation{
-	  bottom: 10px;
-	}
-  }
 /*Fim Video Slide */
 
 

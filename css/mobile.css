@@ -3,9 +3,10 @@
 */
 
 
+
+
 @media (max-width: 992px) {
 
-	          
 
     /*Inicio Mobile Menu */
     #menu-mobile {
@@ -699,6 +700,18 @@
          width: 40px;
          height: 40px;
      }
+
+     .content-video-text .video-title h1 {
+        color: #000;
+    }
+
+    .content-video-text .video-content-text p {
+        color: #000;
+    }
+
+    .banner-video .video-link {
+        background: #a9a9a9
+    }
 
      .sobre-doutor {
          width: 100%;
@@ -1784,6 +1797,21 @@
         margin: 1rem 0.7rem 1rem;
         max-width: 80vw
     }
+
+    
 }
+
+@media (max-width: 420px){
+	.video-slider{
+	  width: 320px;
+	  height: 200px;
+	}
+
+	.video-slider .videonavigation{
+	  bottom: 10px;
+	}
+
+    
+  }
 
 /*Fim Mobile Area */
