@@ -702,8 +702,12 @@
      }
 
 
-    .banner-video .video-link {
+    .content-video-text .video-content-text p {
+        font-weight: 500;
+        line-height: 1em;
+    }
 
+    .banner-video .video-link {
         border-radius: 15px;
     }
 
