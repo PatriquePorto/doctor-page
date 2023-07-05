@@ -666,7 +666,7 @@
      .back-mobile {
          width: 100%;
          height: 1280px;
-         background-image: url(../images/back-mobile.png);
+         background-image: url(/assets/images/back-mobile.png);
          background-repeat: no-repeat;
          background-size: cover; 
         background-position: center center;
@@ -701,18 +701,9 @@
          height: 40px;
      }
 
-     .content-video-text .video-title h1 {
-        color: #000;
-    }
-
-    .content-video-text .video-content-text p {
-        color: #007A7A;
-        font-weight: 500;
-        line-height: 1em;
-    }
 
     .banner-video .video-link {
-        background: #a9a9a9;
+
         border-radius: 15px;
     }
 
