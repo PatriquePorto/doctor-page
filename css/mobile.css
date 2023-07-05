@@ -706,11 +706,14 @@
     }
 
     .content-video-text .video-content-text p {
-        color: #000;
+        color: #007A7A;
+        font-weight: 500;
+        line-height: 1em;
     }
 
     .banner-video .video-link {
-        background: #a9a9a9
+        background: #a9a9a9;
+        border-radius: 15px;
     }
 
      .sobre-doutor {
